@@ -1,0 +1,19 @@
+# Sanal ortam
+venv/
+
+# Büyük model dosyaları
+*.pth
+model/
+
+# Verisetleri
+data/
+*.zip
+*.tar.gz
+
+# Derleme dosyaları
+__pycache__/
+*.pyc
+
+# Sistem ve IDE dosyaları
+.DS_Store
+.ipynb_checkpoints

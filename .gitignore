@@ -1,18 +1,5 @@
-# PyTorch model dosyaları
-*.pth
-*.pt
-
-# Veri klasörleri
 data/
-datasets/
-__pycache__/
-*.log
-
-# Anlık çıktı görselleri
-*.png
-*.jpg
-
-# IDE / işletim sistemi dosyaları
-.DS_Store
 venv/
-*.ipynb_checkpoints
+*.pth
+.DS_Store
+__pycache__/

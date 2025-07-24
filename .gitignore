@@ -1,19 +1,18 @@
-# Sanal ortam
-venv/
-
-# Büyük model dosyaları
+# PyTorch model dosyaları
 *.pth
-model/
+*.pt
 
-# Verisetleri
+# Veri klasörleri
 data/
-*.zip
-*.tar.gz
-
-# Derleme dosyaları
+datasets/
 __pycache__/
-*.pyc
+*.log
 
-# Sistem ve IDE dosyaları
+# Anlık çıktı görselleri
+*.png
+*.jpg
+
+# IDE / işletim sistemi dosyaları
 .DS_Store
-.ipynb_checkpoints
+venv/
+*.ipynb_checkpoints
